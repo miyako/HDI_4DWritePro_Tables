@@ -1,0 +1,1 @@
+Decorate(5)

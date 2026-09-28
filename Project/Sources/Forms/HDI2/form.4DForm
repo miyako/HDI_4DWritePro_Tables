@@ -1,0 +1,326 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 1000,
+	"height": 600,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onDataChange",
+		"onUnload",
+		"onAfterEdit",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 960,
+					"height": 560,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2"
+					],
+					"action": "GotoPage",
+					"method": "ObjectMethods/Tab Control.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture45": {
+					"type": "picture",
+					"top": 84,
+					"left": 560,
+					"width": 400,
+					"height": 400,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/background.png"
+				},
+				"Button": {
+					"type": "button",
+					"top": 541,
+					"left": 867,
+					"width": 95,
+					"text": ":xliff:HDI2_BtnDemoLabel",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 80,
+					"left": 40,
+					"width": 560,
+					"height": 80,
+					"stroke": "automatic",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": ":xliff:HDI2_Page2Intro"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 160,
+					"left": 60,
+					"width": 420,
+					"height": 148,
+					"class": "hdi-commandlist",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": ":xliff:HDI2_CommandList1"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 360,
+					"left": 40,
+					"width": 770,
+					"height": 80,
+					"stroke": "automatic",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": ":xliff:HDI2_Page2Outro"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 440,
+					"left": 60,
+					"width": 420,
+					"height": 68,
+					"class": "hdi-commandlist",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": ":xliff:HDI2_CommandList2"
+				}
+			}
+		},
+		{
+			"objects": {
+				"WParea1": {
+					"type": "write",
+					"top": 70,
+					"left": 40,
+					"width": 550,
+					"height": 450,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 114,
+					"left": 610,
+					"width": 352,
+					"text": ":xliff:HDI2_Step1",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 209,
+					"left": 610,
+					"width": 352,
+					"text": ":xliff:HDI2_Step2",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 401,
+					"left": 610,
+					"width": 352,
+					"text": ":xliff:HDI2_Step4",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 497,
+					"left": 610,
+					"width": 352,
+					"text": ":xliff:HDI2_Step5",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 63,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep1"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 156,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep2"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 348,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep4"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 444,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep5"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 305,
+					"left": 610,
+					"width": 352,
+					"text": ":xliff:HDI2_Step3",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 252,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep3"
+				},
+				"Text": {
+					"type": "text",
+					"top": 89,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_CmdInsertTable"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 183,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_CmdSetAttributes"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 375,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_CmdGetRows"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 279,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_CmdGetColumns"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 471,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_CmdGetCells"
+				},
+				"btnHtml": {
+					"type": "button",
+					"top": 540,
+					"left": 225,
+					"width": 180,
+					"text": ":xliff:HDI2_BtnHtmlLabel",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/btnHtml.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

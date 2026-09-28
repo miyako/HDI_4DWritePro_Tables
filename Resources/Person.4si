@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings-import-export char_display_format="decimal" format="4D" platform="automatic" table_no="1" all_records="true" table_name="Person">
+	<text_settings with_column_title="false"/>
+	<field field_no="1" kind="int32" table_no="1"/>
+	<field field_no="2" kind="object" table_no="1"/>
+	<xml_settings export_xsl_mode="none"/>    </settings-import-export>

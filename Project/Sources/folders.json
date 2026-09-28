@@ -1,0 +1,14 @@
+{
+	"FORMS": {
+		"forms": [
+			"HDI",
+			"HDI2"
+		]
+	},
+	"METHODS": {
+		"methods": [
+			"00_Start"
+		]
+	},
+	"trash": {}
+}
