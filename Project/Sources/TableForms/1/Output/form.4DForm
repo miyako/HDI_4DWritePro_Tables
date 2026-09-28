@@ -67,9 +67,10 @@
 					"width": 56,
 					"height": 16,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"text": "ID : "
+					"text": ":xliff:Person_LabelID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -78,9 +79,10 @@
 					"width": 400,
 					"height": 16,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"text": "OB_Field : "
+					"text": ":xliff:Person_LabelOBField"
 				},
 				"Rectangle4": {
 					"type": "rectangle",

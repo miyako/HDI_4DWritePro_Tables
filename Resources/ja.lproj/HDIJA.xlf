@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_InfoTitle" resname="HDI_InfoTitle">
+        <source>How Do I...</source>
+        <target>How Do I...</target>
+      </trans-unit>
+      <trans-unit id="HDI_InfoBody" resname="HDI_InfoBody">
+        <source>… create and fill tables in 4D Write Pro?… Then how do I setup the appearance?</source>
+        <target>…4D Write Proでテーブルを作成し、データを入力するには?…その後、外観を設定するには?</target>
+      </trans-unit>
+      <trans-unit id="HDI_SorryOldVersion" resname="HDI_SorryOldVersion">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 R4 and above).</source>
+        <target>申し訳ございませんが、この「How do I」(HDI)サンプルは新しいバージョンの4D(v16 R4以降)でのみご利用いただけます。</target>
+      </trans-unit>
+      <trans-unit id="HDI_VersionNote" resname="HDI_VersionNote">
+        <source>(4D v16 R4 and above…)</source>
+        <target>(4D v16 R4以降…)</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemoLabel" resname="HDI_BtnDemoLabel">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="HDI_LicenseWarning" resname="HDI_LicenseWarning">
+        <source>Sorry but this example requires a valid 4D Write Pro  license.</source>
+        <target>申し訳ございませんが、このサンプルには有効な4D Write Proライセンスが必要です。</target>
+      </trans-unit>
+      <trans-unit id="HDI_SorryDesignMode" resname="HDI_SorryDesignMode">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこのHDIをデザインモードで開かないでください。機能が不足しているため、フォームやメソッドが変更されるおそれがあります。</target>
+      </trans-unit>
+      <trans-unit id="BtnClose" resname="BtnClose">
+        <source>Close</source>
+        <target>閉じる</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+        <source>Page 1</source>
+        <target>Page 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+        <source>Page 2</source>
+        <target>Page 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnDemoLabel" resname="HDI2_BtnDemoLabel">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Page2Intro" resname="HDI2_Page2Intro">
+        <source>A new set of commands is now available to create and manage tables:</source>
+        <target>A new set of commands is now available to create and manage tables:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CommandList1" resname="HDI2_CommandList1">
+        <source>WP Insert tableWP Table append rowWP Table get columnsWP Table get rowsWP Table get cells</source>
+        <target>WP Insert tableWP Table append rowWP Table get columnsWP Table get rowsWP Table get cells</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Page2Outro" resname="HDI2_Page2Outro">
+        <source>In order to apply styles to the table or cells, all these commands return a range that can be passed as parameter to:</source>
+        <target>In order to apply styles to the table or cells, all these commands return a range that can be passed as parameter to:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CommandList2" resname="HDI2_CommandList2">
+        <source>WP SET ATTRIBUTESWP GET ATTRIBUTES</source>
+        <target>WP SET ATTRIBUTESWP GET ATTRIBUTES</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step1" resname="HDI2_Step1">
+        <source>Create table and append rows</source>
+        <target>Create table and append rows</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step2" resname="HDI2_Step2">
+        <source>Set table attributes (frame, font sizes…)</source>
+        <target>Set table attributes (frame, font sizes…)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step3" resname="HDI2_Step3">
+        <source>Set column attributes (widths, alignments…)</source>
+        <target>Set column attributes (widths, alignments…)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step4" resname="HDI2_Step4">
+        <source>Set row attributes (background, font style…)</source>
+        <target>Set row attributes (background, font style…)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step5" resname="HDI2_Step5">
+        <source>Set cell attributes (Colors, sizes…)</source>
+        <target>Set cell attributes (Colors, sizes…)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeadingStep1" resname="HDI2_HeadingStep1">
+        <source>#1) Create table and append rows using new commands:</source>
+        <target>#1) Create table and append rows using new commands:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeadingStep2" resname="HDI2_HeadingStep2">
+        <source>#2) Set table attributes using regular command:</source>
+        <target>#2) Set table attributes using regular command:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeadingStep3" resname="HDI2_HeadingStep3">
+        <source>#3) Get column range and set their attributes using:</source>
+        <target>#3) Get column range and set their attributes using:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeadingStep4" resname="HDI2_HeadingStep4">
+        <source>#4) Get row range and set their attributes using:</source>
+        <target>#4) Get row range and set their attributes using:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeadingStep5" resname="HDI2_HeadingStep5">
+        <source>#5) Get cell range and set their attributes using:</source>
+        <target>#5) Get cell range and set their attributes using:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CmdInsertTable" resname="HDI2_CmdInsertTable">
+        <source>WP Insert table &amp; WP Table append row</source>
+        <target>WP Insert table &amp; WP Table append row</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CmdSetAttributes" resname="HDI2_CmdSetAttributes">
+        <source>WP SET ATTRIBUTES</source>
+        <target>WP SET ATTRIBUTES</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CmdGetColumns" resname="HDI2_CmdGetColumns">
+        <source>WP Table get columns</source>
+        <target>WP Table get columns</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CmdGetRows" resname="HDI2_CmdGetRows">
+        <source>WP Table get rows</source>
+        <target>WP Table get rows</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CmdGetCells" resname="HDI2_CmdGetCells">
+        <source>WP Table get cells</source>
+        <target>WP Table get cells</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnHtmlLabel" resname="HDI2_BtnHtmlLabel">
+        <source>Export to HTML</source>
+        <target>Export to HTML</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

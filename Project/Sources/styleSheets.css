@@ -1,0 +1,23 @@
+/* Cross-platform dark mode rules.
+   Branded colours that are not adapted via the "automatic"/"automaticAlternate"
+   keywords are defined here with explicit light/dark variants. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+
+	.hdi-commandlist {
+		stroke: #191970;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF6B47;
+	}
+
+	.hdi-commandlist {
+		stroke: #9DA8FF;
+	}
+}

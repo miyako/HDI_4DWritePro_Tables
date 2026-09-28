@@ -40,8 +40,8 @@
 					"dataSource": "TabControl",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Page 1",
-						"Page 2"
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2"
 					],
 					"action": "GotoPage",
 					"method": "ObjectMethods/Tab Control.4dm",
@@ -67,8 +67,8 @@
 					"top": 541,
 					"left": 867,
 					"width": 95,
-					"height": 20,
-					"text": "Demo",
+					"text": ":xliff:HDI2_BtnDemoLabel",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
@@ -81,9 +81,10 @@
 					"left": 40,
 					"width": 560,
 					"height": 80,
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 24,
-					"text": "A new set of commands is now available to create and manage tables:"
+					"text": ":xliff:HDI2_Page2Intro"
 				},
 				"Text11": {
 					"type": "text",
@@ -91,10 +92,10 @@
 					"left": 60,
 					"width": 420,
 					"height": 148,
-					"stroke": "#191970",
+					"class": "hdi-commandlist",
 					"fontFamily": "System Font",
 					"fontSize": 24,
-					"text": "WP Insert table\rWP Table append row\rWP Table get columns\rWP Table get rows\rWP Table get cells\r\r"
+					"text": ":xliff:HDI2_CommandList1"
 				},
 				"Text12": {
 					"type": "text",
@@ -102,9 +103,10 @@
 					"left": 40,
 					"width": 770,
 					"height": 80,
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 24,
-					"text": "In order to apply styles to the table or cells, all these commands return a range that can be passed as parameter to:"
+					"text": ":xliff:HDI2_Page2Outro"
 				},
 				"Text13": {
 					"type": "text",
@@ -112,10 +114,10 @@
 					"left": 60,
 					"width": 420,
 					"height": 68,
-					"stroke": "#191970",
+					"class": "hdi-commandlist",
 					"fontFamily": "System Font",
 					"fontSize": 24,
-					"text": "WP SET ATTRIBUTES\rWP GET ATTRIBUTES\r"
+					"text": ":xliff:HDI2_CommandList2"
 				}
 			}
 		},
@@ -150,8 +152,8 @@
 					"top": 114,
 					"left": 610,
 					"width": 352,
-					"height": 23,
-					"text": "Create table and append rows",
+					"text": ":xliff:HDI2_Step1",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
@@ -163,8 +165,8 @@
 					"top": 209,
 					"left": 610,
 					"width": 352,
-					"height": 23,
-					"text": "Set table attributes (frame, font sizes…)",
+					"text": ":xliff:HDI2_Step2",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
@@ -176,8 +178,8 @@
 					"top": 401,
 					"left": 610,
 					"width": 352,
-					"height": 23,
-					"text": "Set row attributes (background, font style…)",
+					"text": ":xliff:HDI2_Step4",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
@@ -189,8 +191,8 @@
 					"top": 497,
 					"left": 610,
 					"width": 352,
-					"height": 23,
-					"text": "Set cell attributes (Colors, sizes…)",
+					"text": ":xliff:HDI2_Step5",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
@@ -203,7 +205,8 @@
 					"left": 610,
 					"width": 360,
 					"height": 17,
-					"text": "#1) Create table and append rows using new commands:"
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep1"
 				},
 				"Text5": {
 					"type": "text",
@@ -211,7 +214,8 @@
 					"left": 610,
 					"width": 360,
 					"height": 17,
-					"text": "#2) Set table attributes using regular command:"
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep2"
 				},
 				"Text6": {
 					"type": "text",
@@ -219,7 +223,8 @@
 					"left": 610,
 					"width": 360,
 					"height": 17,
-					"text": "#4) Get row range and set their attributes using:"
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep4"
 				},
 				"Text7": {
 					"type": "text",
@@ -227,15 +232,16 @@
 					"left": 610,
 					"width": 360,
 					"height": 17,
-					"text": "#5) Get cell range and set their attributes using:"
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep5"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 305,
 					"left": 610,
 					"width": 352,
-					"height": 23,
-					"text": "Set column attributes (widths, alignments…)",
+					"text": ":xliff:HDI2_Step3",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
@@ -248,7 +254,8 @@
 					"left": 610,
 					"width": 360,
 					"height": 17,
-					"text": "#3) Get column range and set their attributes using:"
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_HeadingStep3"
 				},
 				"Text": {
 					"type": "text",
@@ -256,8 +263,9 @@
 					"left": 650,
 					"width": 300,
 					"height": 26,
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "WP Insert table & WP Table append row"
+					"text": ":xliff:HDI2_CmdInsertTable"
 				},
 				"Text2": {
 					"type": "text",
@@ -265,8 +273,9 @@
 					"left": 650,
 					"width": 300,
 					"height": 26,
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "WP SET ATTRIBUTES"
+					"text": ":xliff:HDI2_CmdSetAttributes"
 				},
 				"Text3": {
 					"type": "text",
@@ -274,8 +283,9 @@
 					"left": 650,
 					"width": 300,
 					"height": 26,
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "WP Table get rows"
+					"text": ":xliff:HDI2_CmdGetRows"
 				},
 				"Text8": {
 					"type": "text",
@@ -283,8 +293,9 @@
 					"left": 650,
 					"width": 300,
 					"height": 26,
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "WP Table get columns"
+					"text": ":xliff:HDI2_CmdGetColumns"
 				},
 				"Text9": {
 					"type": "text",
@@ -292,16 +303,17 @@
 					"left": 650,
 					"width": 300,
 					"height": 26,
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "WP Table get cells"
+					"text": ":xliff:HDI2_CmdGetCells"
 				},
 				"btnHtml": {
 					"type": "button",
 					"top": 540,
 					"left": 225,
 					"width": 180,
-					"height": 23,
-					"text": "Export to HTML",
+					"text": ":xliff:HDI2_BtnHtmlLabel",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/btnHtml.4dm",
 					"events": [

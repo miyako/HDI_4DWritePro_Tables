@@ -54,7 +54,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Add",
+					"text": ":xliff:CommonAdd",
 					"icon": "/RESOURCES/Images/Buttons/Glass/NewRecord.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -75,7 +75,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Delete",
+					"text": ":xliff:CommonDelete",
 					"icon": "/RESOURCES/Images/Buttons/Glass/DeleteSelection.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -95,7 +95,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Show all",
+					"text": ":xliff:Samples_LabelShowAll",
 					"icon": "/RESOURCES/Images/Buttons/Glass/ShowAll.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -116,7 +116,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Show subset",
+					"text": ":xliff:Samples_LabelShowSubset",
 					"icon": "/RESOURCES/Images/Buttons/Glass/ShowSubset.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -137,7 +137,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Query",
+					"text": ":xliff:Samples_LabelQuery",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Query.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -158,7 +158,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Order by",
+					"text": ":xliff:Samples_LabelOrderBy",
 					"icon": "/RESOURCES/Images/Buttons/Glass/OrderBy.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -179,7 +179,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Quick reports",
+					"text": ":xliff:Samples_LabelReport",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Report.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -200,7 +200,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Print labels",
+					"text": ":xliff:Samples_LabelPrintLabels",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Label.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -221,7 +221,7 @@
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Print",
+					"text": ":xliff:CommonPrint",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Print.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -247,9 +247,10 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "ID : "
+					"text": ":xliff:Samples_LabelID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -258,9 +259,10 @@
 					"width": 89,
 					"height": 17,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "fDate : "
+					"text": ":xliff:Samples_LabelFDate"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -269,9 +271,10 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "fLong : "
+					"text": ":xliff:Samples_LabelFLong"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -280,9 +283,10 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "fText : "
+					"text": ":xliff:Samples_LabelFText"
 				},
 				"Rectangle6": {
 					"type": "rectangle",

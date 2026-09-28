@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/3" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Samples_Header" resname="Samples_Header">
+        <source>SAMPLES</source>
+        <target>SAMPLES</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelFirst" resname="Samples_LabelFirst">
+        <source>First</source>
+        <target>先頭</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelPrevious" resname="Samples_LabelPrevious">
+        <source>Previous</source>
+        <target>前へ</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelNext" resname="Samples_LabelNext">
+        <source>Next</source>
+        <target>次へ</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelLast" resname="Samples_LabelLast">
+        <source>Last</source>
+        <target>末尾</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelValidate" resname="Samples_LabelValidate">
+        <source>Validate</source>
+        <target>確定</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelFDate" resname="Samples_LabelFDate">
+        <source>fDate : </source>
+        <target>fDate : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelFLong" resname="Samples_LabelFLong">
+        <source>fLong : </source>
+        <target>fLong : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelFPict" resname="Samples_LabelFPict">
+        <source>fPict : </source>
+        <target>fPict : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelFText" resname="Samples_LabelFText">
+        <source>fText : </source>
+        <target>fText : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelID" resname="Samples_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelShowAll" resname="Samples_LabelShowAll">
+        <source>Show all</source>
+        <target>すべて表示</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelShowSubset" resname="Samples_LabelShowSubset">
+        <source>Show subset</source>
+        <target>サブセットを表示</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelQuery" resname="Samples_LabelQuery">
+        <source>Query</source>
+        <target>検索</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelOrderBy" resname="Samples_LabelOrderBy">
+        <source>Order by</source>
+        <target>並べ替え</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelReport" resname="Samples_LabelReport">
+        <source>Quick reports</source>
+        <target>簡易レポート</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelPrintLabels" resname="Samples_LabelPrintLabels">
+        <source>Print labels</source>
+        <target>ラベルを印刷</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

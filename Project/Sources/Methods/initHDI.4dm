@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {}
 If (Records in table:C83([SAMPLES:3])=0) | (Shift down:C543)
 	
 	ARRAY TEXT:C222($_Names; 0)

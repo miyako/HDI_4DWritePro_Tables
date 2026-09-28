@@ -1,12 +1,5 @@
-//%attributes = {}
-C_LONGINT:C283($1)
-
-C_LONGINT:C283($part)
-
-
-$part:=$1
-
-
+//%attributes = {"invisible":true}
+#DECLARE($part : Integer)
 
 Case of 
 	: ($part=1)  // create table

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/1" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Person_Header" resname="Person_Header">
+        <source>Person</source>
+        <target>Person</target>
+      </trans-unit>
+      <trans-unit id="Person_LabelID" resname="Person_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="Person_LabelOBField" resname="Person_LabelOBField">
+        <source>OB_Field : </source>
+        <target>OB_Field : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
