@@ -1,0 +1,34 @@
+{
+	"tables": {
+		"SAMPLES": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "256.65625",
+				"top": "37.90234375",
+				"width": "182.078125",
+				"height": "158.97265625"
+			},
+			"displayable_fields_count": 5
+		},
+		"Person": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "73.91015625",
+				"top": "40.39453125",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6
+		}
+	}
+}

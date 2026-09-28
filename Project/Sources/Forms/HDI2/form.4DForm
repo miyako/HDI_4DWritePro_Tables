@@ -1,0 +1,314 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 1000,
+	"height": 600,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onDataChange",
+		"onUnload",
+		"onAfterEdit",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 960,
+					"height": 560,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Page 1",
+						"Page 2"
+					],
+					"action": "GotoPage",
+					"method": "ObjectMethods/Tab Control.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture45": {
+					"type": "picture",
+					"top": 84,
+					"left": 560,
+					"width": 400,
+					"height": 400,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/background.png"
+				},
+				"Button": {
+					"type": "button",
+					"top": 541,
+					"left": 867,
+					"width": 95,
+					"height": 20,
+					"text": "Demo",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 80,
+					"left": 40,
+					"width": 560,
+					"height": 80,
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": "A new set of commands is now available to create and manage tables:"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 160,
+					"left": 60,
+					"width": 420,
+					"height": 148,
+					"stroke": "#191970",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": "WP Insert table\rWP Table append row\rWP Table get columns\rWP Table get rows\rWP Table get cells\r\r"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 360,
+					"left": 40,
+					"width": 770,
+					"height": 80,
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": "In order to apply styles to the table or cells, all these commands return a range that can be passed as parameter to:"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 440,
+					"left": 60,
+					"width": 420,
+					"height": 68,
+					"stroke": "#191970",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"text": "WP SET ATTRIBUTES\rWP GET ATTRIBUTES\r"
+				}
+			}
+		},
+		{
+			"objects": {
+				"WParea1": {
+					"type": "write",
+					"top": 70,
+					"left": 40,
+					"width": 550,
+					"height": 450,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 114,
+					"left": 610,
+					"width": 352,
+					"height": 23,
+					"text": "Create table and append rows",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 209,
+					"left": 610,
+					"width": 352,
+					"height": 23,
+					"text": "Set table attributes (frame, font sizes…)",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 401,
+					"left": 610,
+					"width": 352,
+					"height": 23,
+					"text": "Set row attributes (background, font style…)",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 497,
+					"left": 610,
+					"width": 352,
+					"height": 23,
+					"text": "Set cell attributes (Colors, sizes…)",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 63,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"text": "#1) Create table and append rows using new commands:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 156,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"text": "#2) Set table attributes using regular command:"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 348,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"text": "#4) Get row range and set their attributes using:"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 444,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"text": "#5) Get cell range and set their attributes using:"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 305,
+					"left": 610,
+					"width": 352,
+					"height": 23,
+					"text": "Set column attributes (widths, alignments…)",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 252,
+					"left": 610,
+					"width": 360,
+					"height": 17,
+					"text": "#3) Get column range and set their attributes using:"
+				},
+				"Text": {
+					"type": "text",
+					"top": 89,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"fontWeight": "bold",
+					"text": "WP Insert table & WP Table append row"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 183,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"fontWeight": "bold",
+					"text": "WP SET ATTRIBUTES"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 375,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"fontWeight": "bold",
+					"text": "WP Table get rows"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 279,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"fontWeight": "bold",
+					"text": "WP Table get columns"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 471,
+					"left": 650,
+					"width": 300,
+					"height": 26,
+					"fontWeight": "bold",
+					"text": "WP Table get cells"
+				},
+				"btnHtml": {
+					"type": "button",
+					"top": 540,
+					"left": 225,
+					"width": 180,
+					"height": 23,
+					"text": "Export to HTML",
+					"focusable": false,
+					"method": "ObjectMethods/btnHtml.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}
